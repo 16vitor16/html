@@ -1,0 +1,23 @@
+
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Midias em html</title>
+    </head>
+    <body>
+        <h1>imagem dinamica</h1>
+        <p>Tente abrir este site em varios dispositivos diferemtes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/azul.png" type="image/png" />
+            <source media="(max-width: 1050px)" srcset="imagens/laranja.png" type="image/png" />
+            <img src="imagens/rosa.png" alt="imagem flexivel" />
+        </picture>
+
+        <h1>reproduzindo audio</h1>
+        <audio src="midia/Moon Landings - ALBIS.mp3" controls autoplay></audio>
+
+        <p>vamos aprendr a reproduzir audio em html5</p>
+    </body>
+</html>
